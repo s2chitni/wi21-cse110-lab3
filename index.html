@@ -4,10 +4,251 @@
   <meta CHARSET="UTF-8">
   <meta name="Author" content="Shwet Chitnis">
   <title>Shwet's CSE 110 Lab 2</title>
-  <link rel="Previous Lab" href="https://s2chitni.github.io/my-github-pages-project/">
+  <link rel="prev" href="https://s2chitni.github.io/my-github-pages-project/">
+  <style>
+    .testdiv {
+      
+      text-align: center;
+      background-color: cornflowerblue;
+    }
+  </style>
 </head>
+
+<header>
+  <h3>Created by yours truly ~ Shwet Chitnis</h3>
+</header>
+
+<main>
+  <div class="testdiv"><h1>Shwet's Music-mania</h1></div>
+  <h2>A Little Bit about my favorite bands</h2>
+  <section>
+    <h3>Radiohead</h3>
+    <p>Favorite Song : "No Surprises"</p>
+            <figure>
+              <img src="ok.png" alt="Trulli">
+              <figcaption>OK Computer</figcaption>
+            </figure>
+  </section>
+  <section>
+    <h3>Nine Inch Nails</h3>
+    <p>Favorite Song : "Closer"</p>
+        <figure>
+          <img src="nin.png" alt="Trulli">
+          <figcaption>The Downward Spiral</figcaption>
+        </figure>
+  </section>
+  <section>
+    <h3>The Velvet Underground</h3>
+    <figure>
+      <img src="Velvet_Underground_and_Nico.jpg" alt="Trulli">
+      <figcaption>The Velvet Underground & Nico</figcaption>
+    </figure>
+    <p>Favorite Song : <span style="color:brown">"Sunday</span> Morning" </p>
+  </section>
+  <aside>
+    <h4>Maroon 5 (let's keep this lowkey)</h4>
+    <p>Favorite Song : "Won't Go Home Without You"</p>
+  </aside>
+
+  <hr>
+  <p>Now let's talk about <b>Kpop!</b> Kpop has some amazing artists too like The Rose and Day 6, oof they are amazing! You <em>have</em> to try them out!</p>
+
+  <hr>
+  <p>I would also like mention Sigur Ros which is an Icelandic post-rock band. <strong>They have gone as far as creating their own language!</strong></p>
+  <ul>Some of their songs:
+    <li><i>"Svefn-g-englar"</i></li>
+    <li><i>"Hoppipolla"</i></li>
+    <li><i>"Saeglopur"</i></li>
+  </ul>
+
+
+
+</main>
+
 <body>
-<h1>Lets Go</h1>
-<p>I LOVE RADIOHEAD</p>
-</body>
+  <h2>All of Shwet's Favorite Bands Ranked </h2> 
+  <ol>Ranked from good to best
+    <li><span style="color:maroon">Maroon 5</span></li>
+    <li><span style="color:silver">Nine Inch Nails</span></li>
+    <li><span style="color:purple">The Velvet Underground</span></li>
+    <li>Radiohead</li>
+    </ol>
+  <hr>
+  <pre>
+    This is just me testing
+          out the pre 
+    attribute. Lo how it works!
+  </pre>
+  <hr>
+  <p>Now let's test a <br>line break! Well it <br>works, right?</p>
+
+  <hr>
+  <p>Now let's test out picture and source</p>
+  <picture>
+    <source media="(min-width:250px)" srcset="Loadedalbum.jpg">
+    <img src="m5.png" alt="Songs about Jane" style="width:auto;">
+  </picture>
+
+  <hr>
+  <p>Why not try out iframe!</p>
+  
+  <iframe src="https://www.mikiyakobayashi.com" title="Classy Website"></iframe>
+
+  <hr>
+  <p>Let's have a look at audio with an epic song!</p>
+  <audio controls>
+    <source src="radiohead.ogg" type="audio/ogg">
+    Your browser does not support this audio tag.
+  </audio>
+
+  <hr>
+  <p>Testing out video here.</p>
+  <video width="320" height="240" controls>
+    <source src="test.mp4" type="video/mp4">
+    Your browser does not support this video tag.
+  </video>
+  
+  <hr>
+  <p>Canvas element here!</p>
+  <canvas id="thisCanvas" width="320" height="240" style="border:5px solid maroon;">
+    Your browser does not support this function.
+  </canvas>
+
+  <hr>
+  <p>svg element here</p>
+  <svg width="320" height="240">
+    <circle cx="160" cy="120" r="80" stroke="black" stroke-width="6" fill="yellow" />
+  </svg>
+
+    <hr>
+    <p>Please fill out the form below:</p>
+    <form name="Lets Talk About Your Favorite Bands:">
+      <textarea id="recap" name="recap" rows="6" cols="50">
+                    
+              1.radiohead rox
+              2.nin brings you Closer
+              3.that's all that matters
+               
+      </textarea><br>
+      <label for="sband">Choose a band you liked from my list:</label>
+      <label for="recap">Recap</label>
+      
+
+        <select name="bands" id="bands">
+          <optgroup label="Highkey List">
+            <option value="radiohead">Radiohead</option>
+            <option value="nin">Nine Inch Nails</option>
+            <option value="velvet">The Velvet Underground</option>
+            <option value="kpop">The Rose</option>
+          </optgroup>
+          <optgroup label="Lowkey List">
+            <option value="bts">BTS</option>
+            <option value="m5">Maroon 5</option>
+          </optgroup>
+        </select>
+        <br><br>
+      <fieldset>
+      <legend>For which you don't need the data I provided above</legend> 
+      <label for="favband">Favorite Band:</label>
+      <input type="text" id="favband" name="favband"><br><br>
+      <label for="uemail">Enter your email:</label>
+      <input type="email" id="uemail" name="uemail"><br><br>
+      <label for="udate">When was the last time you only listened to music:</label>
+      <input type="date" id="udate" name="udate"><br><br>
+      <label for="ulink">Please link a website you find really cool:</label>
+      <input type="url" id="ulink" name="ulink"><br><br>
+      <label for="uold">How old are you according to the music you listen to:</label>
+      <input type="range" id="uold" name="uold"><br><br>
+      <label for="ucolor">Why not pick your favorite color:</label>
+      <input type="color" id="ucolor" name="ucolor"><br><br>
+      <label for="utel">If you could pick your telephone number, what would it be:</label>
+      <input type="tel" id="utel" name="utel"><br><br>
+      <label for="usearch">Just for fun do you wanna look something up:</label>
+      <input type="search" id="usearch" name="usearch">
+      <input type="submit" value="Submit"><br><br>
+      <label for="upass">Enter a password plez:</label>
+      <input type="password" id="upass" name="uapss"><br><br>
+      <label for="best">Choose what you liked most about this page:</label>
+      <input list="attributes" name="best" id="best">
+      
+      <datalist id="attributes">
+        <option value="image">
+        <option value="audio">
+        <option value="iframe">
+        <option value="this form!">
+        <option value="everything">
+      </datalist>
+      </fieldset>
+      <input type="submit" value="Submit"><br><br>
+      
+    </form>
+
+    <hr>
+    <p>Now let's work with a table</p>
+    <table>
+      <caption>Just a table</caption>
+      <colgroup>
+    
+        <col  span="1" style="background-color:yellow">
+        <col span="1" style="background-color: maroon;">
+      </colgroup>
+        <tr>
+          <th>Band Name</th>
+          <th>Song Title</th>
+          <th>Album</th>
+        </tr>
+        <tr>
+          <td>Radiohead</td>
+          <td>No Surprises</td>
+          <td>OK Computer</td>
+        </tr>
+        <tr>
+          <td>Nine Inch Nails</td>
+          <td>Closer</td>
+          <td>The Downward Spiral</td>
+        </tr>
+        <tr>
+          <td>Maroon 5</td>
+          <td>Sweetest <br>Goodbye</td>
+          <td>Songs about<br>Jane</td>
+        </tr>
+    </table>
+  
+    <hr>
+    <p>Let's try out some interactive elements</p>
+    <details>
+      <summary>What all did I learn?</summary>
+      <p>
+        I learnt a great deal about how to design my own page using HTML.<br> 
+        The most fun part was to see how different attributes loon on a web page!
+        I really loved this lab!
+      </p>
+    </details>
+    
+    <hr>
+    <p>Alas, let's look at Tempalates and Buttons</p> 
+    <button onclick="">Show hidden content</button>
+    
+    <template>
+      <h2>Random Image</h2>
+      <img src="Velvet_Underground_and_Nico.jpg">
+    </template>
+
+  </body>
+
+<h2> Links to my favorite songs </h2>
+<nav>
+  <a href="https://www.youtube.com/watch?v=u5CVsCnxyXg&list=RDdf1VSp1Zp60&index=9">No Surprises</a> |
+  <a href="https://www.youtube.com/watch?v=JTvNVxk1WnU">Closer</a> |
+  <a href="https://www.youtube.com/watch?v=3qK82JvRY5s">Sunday Morning</a> |
+  <a href="https://www.youtube.com/watch?v=VlMEGBsw6j8">Won't Go Home Without You</a>
+</nav>
+
+<footer>
+  <p>Email me if you want to talk about algorithms and stuff;)</p>
+  <p> Here's my email: 
+    <a href = "mailto:shwetchitnis210600@gmail.com">shwetchitnis210600@gmail.com</a>
+  </p>
+  <p>I have never worked with <code>HTML </code> code this extensively!</p>
+</footer>
 </html>
