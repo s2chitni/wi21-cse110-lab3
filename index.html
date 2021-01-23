@@ -7,6 +7,17 @@
   <title>Shwet's CSE 110 Lab 2</title>
   <link rel="prev" href="https://s2chitni.github.io/my-github-pages-project/">
   <style>
+ .flex-box {
+  display: flex;
+  background-color: Blue;
+}
+
+.flex-box > div {
+  background-color: #f1e1d1;
+  margin: 15px;
+  padding: 25px;
+  font-size: 35px;
+}
     .testdiv {
       
       text-align: center;
@@ -16,12 +27,18 @@
 </head>
 
 <header>
-  <h3>Created by yours truly ~ Shwet Chitnis</h3>
+  <h3 style="position: ">Created by yours truly ~ Shwet Chitnis</h3>
 </header>
 
+<div class="flex-box">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+</div>
+  
 <main>
   <div class="testdiv"><h1>Shwet's Music-mania</h1></div>
-  <h2 style="color:maroon;text-align:center;font-size: 3em;">A Little Bit about my favorite bands</h2>
+  <h2 class="absolute" style="color:maroon;text-align:center;font-size: 3em;">A Little Bit about my favorite bands</h2>
   <section>
     <h3>Radiohead</h3>
     <p>Favorite Song : "No Surprises"</p>
@@ -47,7 +64,7 @@
     <p>Favorite Song : <span style="color:brown; font-size: 1ch">"Sunday</span> Morning" </p>
   </section>
   <aside>
-    <h4>Maroon 5 (let's keep this lowkey)</h4>
+    <h4 class="relative">Maroon 5 (let's keep this lowkey)</h4>
     <p style="text-decoration: underline">Favorite Song : "Won't Go Home Without You"</p>
   </aside>
 
