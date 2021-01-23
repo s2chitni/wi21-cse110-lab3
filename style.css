@@ -89,7 +89,7 @@ a:active {
 .grid-box {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196E3;
+  background-color: #2196F3;
   padding: 10px;
 }
 .grid-kid {
@@ -99,3 +99,5 @@ a:active {
   font-size: 35px;
   text-align: center;
 }
+
+ .mode.mode-red { border-color: red; } 
