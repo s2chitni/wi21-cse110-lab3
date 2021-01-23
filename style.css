@@ -86,16 +86,16 @@ a:active {
   background-color: pink;
 }
 
-.grid-container {
+.grid-box {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  background-color: #2196E3;
   padding: 10px;
 }
-.grid-item {
+.grid-kid {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 25px;
+  font-size: 35px;
   text-align: center;
 }
