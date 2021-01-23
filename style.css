@@ -17,13 +17,9 @@
   text-align: center
 }
 
-p {
+p, img[text-align] {
   text-align: center;
   color: blue;
-}
-
-img[text-align] {
-  text-align: right;
 }
 
 a:hover {
@@ -100,4 +96,3 @@ a:active {
   text-align: center;
 }
 
- .mode.mode-red { border-color: red; } 
