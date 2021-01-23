@@ -48,7 +48,7 @@ h2 + ol {
 /* add an example to combine selectors */
 
 /* border */
-picture {
+p {
   border-style: dotted;
   border-color: #3cb371;
   border-width: thick;
