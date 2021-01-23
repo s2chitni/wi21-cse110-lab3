@@ -17,6 +17,42 @@ p {
   color: blue;
 }
 
-form[name="Lets Talk About Your Favorite Bands:"] {
-  background-color: green;
+img[text-align] {
+  text-align: right;
 }
+
+a:hover {
+  color: yellow;
+}
+
+h1, h2 {
+  color: #6a5acd;
+}
+
+div h1 {
+  background-color: rgb(200, 100, 150);
+}
+
+section > h3 {
+  background-color: rgba(255, 99, 71, 0.5);
+}
+
+div ~ p {
+  background-color: hsl(39, 100%, 50%);
+}
+
+h2 + ol {
+  background-color: hsla(9, 100%, 64%, 1)
+}
+
+/* add an example to combine selectors */
+
+/* border */
+picture {
+  border-style: dotted;
+  border-color: #3cb371;
+  border-width: thick;
+  border-radius: 25px;
+}
+
+
