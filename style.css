@@ -55,6 +55,12 @@ p {
   border-radius: 25px;
 }
 
+div {
+  width: 250px;
+  border: 15px solid orange;
+  padding: 50px;
+  margin: 25px;
+}
 
 
 
