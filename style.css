@@ -1,1 +1,18 @@
+.center {
+  text-align: center;
+  color: purple;
+}
 
+#thisCanvas {
+  text-align: center;
+  color: orange;
+}
+
+* {
+  text-align: center
+}
+
+p {
+  text-align: center;
+  color: blue;
+}
