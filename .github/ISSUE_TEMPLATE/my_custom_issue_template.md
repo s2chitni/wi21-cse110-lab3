@@ -7,8 +7,6 @@ assignees: s2chitni
 
 ---
 
-**CSS Topic Number**
+**CSS Topics**
 
-**CSS Topic Name**
-
-**CSS Topic Perceived Difficulty**
+**CSS Topics Perceived Difficulty**
